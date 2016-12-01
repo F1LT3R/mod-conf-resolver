@@ -1,7 +1,7 @@
 {
   "name": "mod-conf-resolver",
   "version": "1.0.0",
-  "description": "Demo of simple node config file resolver,",
+  "description": "Demo of simple node config file resolver.",
   "main": "conf.js",
   "dependencies": {},
   "devDependencies": {

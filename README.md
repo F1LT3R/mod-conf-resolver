@@ -8,7 +8,7 @@ in the local repo.
 
 Conf:
 
-```javascript
+```javascript?ts=4
 module.exports = {
   foo: 'module-1',
 
