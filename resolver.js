@@ -33,7 +33,7 @@ const resolve = {
 		}
 
 		return mod;
-	},
+	}, 
 
 	_array: elem => {
 		return elem.map(item => {
