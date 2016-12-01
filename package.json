@@ -1,0 +1,54 @@
+{
+  "name": "mod-conf-resolver",
+  "version": "1.0.0",
+  "description": "Demo of simple node config file resolver,",
+  "main": "conf.js",
+  "dependencies": {},
+  "devDependencies": {
+    "xo": "^0.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F1LT3R/node-conf-resolver.git"
+  },
+  "author": "f1lt3r",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/F1LT3R/node-conf-resolver/issues"
+  },
+  "homepage": "https://github.com/F1LT3R/node-conf-resolver#readme",
+  "xo": {
+    "esnext": true,
+    "globals": [
+      "it",
+      "describe",
+      "beforeEach",
+      "before",
+      "after",
+      "afterEach"
+    ],
+    "rules": {
+      "import/no-extraneous-dependencies": 0,
+      "import/no-dynamic-require": 0,
+      "import/no-unresolved": 0,
+      "no-use-extend-native": 0,
+      "no-multi-str": 0
+    },
+    "overrides": [
+      {
+        "files": "**/Markconf.*",
+        "rules": {
+          "unicorn/filename-case": [
+            "error",
+            {
+              "case": "pascalCase"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
